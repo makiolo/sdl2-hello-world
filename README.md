@@ -20,7 +20,6 @@ int main(int argc, char const* argv[])
 	return 0;
 }
 ```
-- git add README package.json src/main.cpp CMakeLists.txt
 - npm install -D https://github.com/makiolo/npm-mas-mas
 - In package.json replace scripts with this:
 ```json
@@ -44,5 +43,3 @@ int main(int argc, char const* argv[])
 
 # Añadir controles
 - Añadir en el CMakeLists.txt: cmaki_find_package(ois)
-
-
