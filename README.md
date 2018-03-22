@@ -43,3 +43,6 @@ int main(int argc, char const* argv[])
 
 ## Añadir controles
 - Añadir en el CMakeLists.txt: cmaki_find_package(ois)
+
+## SDL2
+- http://www.willusher.io/pages/sdl2/
