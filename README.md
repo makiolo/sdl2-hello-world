@@ -35,11 +35,11 @@ int main(int argc, char const* argv[])
 },
 ```
 
-# Iteración durante el desarrollo (compilar + ejecutar)
+## Iteración durante el desarrollo (compilar + ejecutar)
 - npm install && (cd ./bin/Debug/ && LD_LIBRARY_PATH=$(pwd) ./test1)
 
-# Añadir log al proyecto
+## Añadir log al proyecto
 - Añadir en el CMakeLists.txt: cmaki_find_package(spdlog)
 
-# Añadir controles
+## Añadir controles
 - Añadir en el CMakeLists.txt: cmaki_find_package(ois)
