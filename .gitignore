@@ -1,0 +1,5 @@
+artifacts.json
+artifacts/
+bin/
+gcc/
+node_modules/
