@@ -1,4 +1,4 @@
-# Como empezar un repositorio vacio
+## Como empezar un repositorio vacio
 - git clone git@github.com:makiolo/sdl2-hello-world.git
 - npm init
 - create CMakeLists.txt minimal:
