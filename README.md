@@ -1,4 +1,4 @@
-# Como empezar un repositorio vacio
+## Como empezar un repositorio vacio
 - git clone git@github.com:makiolo/sdl2-hello-world.git
 - npm init
 - create CMakeLists.txt minimal:
@@ -20,7 +20,6 @@ int main(int argc, char const* argv[])
 	return 0;
 }
 ```
-- git add README package.json src/main.cpp CMakeLists.txt
 - npm install -D https://github.com/makiolo/npm-mas-mas
 - In package.json replace scripts with this:
 ```json
@@ -36,13 +35,14 @@ int main(int argc, char const* argv[])
 },
 ```
 
-# Iteración durante el desarrollo (compilar + ejecutar)
+## Iteración durante el desarrollo (compilar + ejecutar)
 - npm install && (cd ./bin/Debug/ && LD_LIBRARY_PATH=$(pwd) ./test1)
 
-# Añadir log al proyecto
+## Añadir log al proyecto
 - Añadir en el CMakeLists.txt: cmaki_find_package(spdlog)
 
-# Añadir controles
+## Añadir controles
 - Añadir en el CMakeLists.txt: cmaki_find_package(ois)
 
-
+## SDL2
+- http://www.willusher.io/pages/sdl2/
