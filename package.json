@@ -24,6 +24,10 @@
   },
   "homepage": "https://github.com/makiolo/sdl2-hello-world#readme",
   "devDependencies": {
-    "npm-mas-mas": "git+https://github.com/makiolo/npm-mas-mas.git"
+    "npm-mas-mas": "git+https://github.com/makiolo/npm-mas-mas.git",
+    "teelogging": "git+https://github.com/makiolo/teelogging.git",
+    "coroutine": "git+https://github.com/makiolo/coroutine.git",
+    "metacommon": "git+https://github.com/makiolo/metacommon.git",
+    "cppunix": "git+https://github.com/makiolo/cppunix.git"
   }
 }
