@@ -560,11 +560,11 @@ int main(int argc, char const* argv[])
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 			// ren.clear();
-			ren.render(tex, x, 20, 100, 100);
-			ren.render(tex, 100, y, 100, 100);
+			// ren.render(tex, x, 20, 100, 100);
+			// ren.render(tex, 100, y, 100, 100);
 			ren.update();
 
-			SDL_GL_SwapWindow(_w.get());
+			// SDL_GL_SwapWindow(_w.get());
 
 			yield( {} );
 		}
