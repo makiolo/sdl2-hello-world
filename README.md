@@ -1,4 +1,5 @@
 ## Como empezar un repositorio vacio
+- Dependencias: npm, cmake, python-yaml
 - git clone git@github.com:makiolo/sdl2-hello-world.git
 - npm init
 - create CMakeLists.txt minimal:
